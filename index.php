@@ -126,7 +126,7 @@ $_SESSION["invoiceTotal"] = $invoiceTotal;
         </div>
 
         <hr>
-        <form action="ACMEpurchases.php" method="get" onsubmit="return validateForm()">
+        <form action="index.php" method="get" onsubmit="return validateForm()">
             <fieldset class="additem">
                 <legend>Add Item to Order</legend>
                 <select id="newitem" name="optionlist" onchange="getOption(this)">
