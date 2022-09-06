@@ -122,7 +122,7 @@ $_SESSION["invoiceTotal"] = $invoiceTotal;
  ?>
  <!-- set the status of the purchase button -->
         <div id="purchase">
-            <button id="submitorder" <?php echo $disabled; ?> onclick="window.location.assign('ACMEpurchases.php?reset=true');">Purchase</button>
+            <button id="submitorder" <?php echo $disabled; ?> onclick="window.location.assign('index.php?reset=true');">Purchase</button>
         </div>
 
         <hr>
